@@ -1,0 +1,16 @@
+ErrorDocument 404 /404.php
+<FilesMatch "404_errors.log">
+	Order Allow,Deny
+	Deny from all
+</FilesMatch>
+IndexIgnore *
+Deny from 155.133.18.236 # Banned from Fake page -> wp-admin.php
+Deny from 92.45.151.89 # Banned from Fake page -> wp-admin.php
+Deny from 92.45.132.161 # Banned from Fake page -> wp-admin.php
+Deny from 185.30.90.166 # Banned from Fake page -> wp-admin.php
+Deny from 185.30.90.163 # Banned from Fake page -> wp-admin.php
+Deny from 199.19.94.179 # Banned from Fake page -> wp-admin.php
+Deny from 94.20.239.21 # Banned from Fake page -> wp-admin.php
+Deny from 37.59.138.117 # Banned from Fake page -> wp-admin.php
+Deny from 192.30.83.230 # Banned from Fake page -> wp-admin.php
+Deny from 176.126.252.74 # Banned from Fake page -> wp-admin.php

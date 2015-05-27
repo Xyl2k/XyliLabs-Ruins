@@ -1,0 +1,461 @@
+/* Colors ----------------------------------------------------*/
+
+/* Yellow			: #ffcc00; */
+/* Blue  			: #000063; */
+
+/* Blue edit			: #000070; */
+/* Blue edit hover		: #000099; */
+
+/* Typography ------------------------------------------------*/
+
+@font-face {
+	font-family 		: "Meta";
+	src			: url('metapro-normal.otf');
+	font-weight		: normal;
+	font-style		: normal;
+}
+
+@font-face {
+	font-family 		: "Meta-Bold";
+	src			: url('metapro-bold.otf');
+	font-weight		: bold;
+	font-style		: normal;
+}
+
+p, #cert-content li {
+	font-family		: "Meta", Helvetica, Arial, sans-serif;
+	font-size		: 10pt;
+	line-height		: 15pt;
+	color			: #000000;
+	margin-bottom		: 15pt;
+}
+
+table p, #cert-content li, .cert-contextbox p, .nomargin {
+	margin-bottom		: 0pt;
+}
+
+p a, li a, p a:visited, li a:visited {
+	color			: #000070;
+}
+
+p a:hover {
+	color			: #000099;
+}
+
+#cert-content ul {
+	margin-left		: 14px;
+	margin-bottom		: 15pt;
+}
+
+p strong, .cert-contextbox p strong {
+	font-family		: "Meta-Bold", Helvetica, Arial, sans-serif;
+}
+
+.warning {
+	color			: #dd0000;
+}
+
+h1 {
+	height			: 60px;
+	font-family		: "Meta", Helvetica, Arial, Sans-serif;
+	font-size		: 25pt;
+	color			: #000070;
+	font-weight		: normal;
+}
+
+/* The basics ------------------------------------------------*/
+
+body {
+	background		: #ffffff;
+	margin			: 0; 
+	padding			: 0;
+}
+
+* {
+	padding			: 0; 
+	margin			: 0;
+}
+
+img {	
+	border			: none;
+}
+a {
+  	outline			: none;
+}
+
+.hidden {
+	display			: none;
+}
+
+
+/* Base boxes ------------------------------------------------*/
+    
+#main {
+	background		: none;
+	position		: relative;
+	width			: 960px;
+	margin			: 0 auto;
+}
+
+#container {
+	float			: left;
+	background		: #ffffff;
+	width			: 960px;
+	margin-top		: 40px;
+	-webkit-box-shadow	: 0px 0px 10px 0px #bbbbbb; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	box-shadow		: 0px 0px 10px 0px #bbbbbb; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5+ */
+	border-radius		: 4px;
+	-moz-border-radius	: 4px;
+	-webkit-border-radius	: 4px;		
+}
+
+/* Home page elements ----------------------------------------*/
+
+#header {
+	float			: left;
+	width			: 960px;
+	height			: 80px;
+	background-color	: #2B2F34;
+}
+
+#logo-wordmark {
+	float			: left;
+	width			: 260px;
+	height			: 40px;
+	margin-left		: 20px;
+	margin-top		: 20px;
+}
+
+#logo-satellite {
+	float			: left;
+	width			: 260px;
+	height			: 40px;
+	margin-left		: 380px;
+	margin-top		: 20px;
+}
+
+#menu {
+	float			: left;
+	width			: 960px;
+	height			: 30px;
+	background-color	: #ffcc00;
+}
+
+#mid {
+	float			: left;
+	width			: 960px;
+	border-top		: 1px solid #deb81e;
+}
+
+#homecontent {
+	float			: left;
+	width			: 960px;
+	height			: 300px;
+	margin-top		: 10px;
+}
+
+.homebox {
+	float			: left;
+	margin-left		: 20px;
+	width			: 168px;
+	height			: 120px;
+	background-color	: #cccccc;
+	border-top		: 20px solid #ffcc00;
+}
+
+#footer {
+	float			: left;
+	width			: 960px;
+	background		: #f3f3f3;
+	border-top		: 1px solid #cccccc;
+}
+
+.footercolumn {
+	float			: left;
+	width			: 168px;
+	margin-top		: 20px;
+	margin-left		: 20px;
+	border-top		: 1px solid #dedede;
+	padding-top		: 10px;
+	padding-bottom		: 30px;
+}
+
+.footercolumn h4 {
+	font-family		: "Meta-Bold", Helvetica, Arial, sans-serif;
+	font-size		: 10pt;
+	line-height		: 15pt;
+	color			: #888888;
+	font-weight		: bold;
+}
+
+.footercolumn ul {
+	list-style		: none;
+}
+
+.footercolumn li a {
+	font-family		: "Meta", Helvetica, Arial, sans-serif;
+	font-size		: 10pt;
+	line-height		: 15pt;
+	color			: #aaaaaa;
+	font-weight		: normal;
+	text-decoration		: none;
+}
+
+.footercolumn li a:hover {
+	color			: #000099;
+}
+
+#endblurb {
+	float			: left;
+	width			: 960px;
+	margin-top		: 10px;
+	height			: 50px;
+}
+
+#endblurb p {
+	font-family		: "Meta", Helvetica, Arial, sans-serif;
+	font-size		: 8pt;
+	line-height		: 15pt;
+	color			: #cccccc;
+	text-align		: center;
+}
+
+#endblurb p a {
+	color			: #cccccc;
+}
+
+#endblurb p a:hover {
+	color			: #000099;
+}
+
+/* CERT pages ------------------------------------------------*/
+
+#cert-splash {
+	float			: left;
+	width			: 960px;
+	height			: 500px;
+	background		: #ffffff url('splash-cert-home.jpg') no-repeat;
+}
+
+#cert-loginbox {
+	float			: left;
+	width			: 405px;
+	height			: 30px;
+	padding			: 20px;
+	background-color	: #ffffff;
+	margin-left		: 20px;
+	margin-top		: 350px;
+	-webkit-box-shadow	: 0px 0px 10px 0px #777777; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	box-shadow		: 0px 0px 10px 0px #777777; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5+ */
+	border-radius		: 3px;
+	-moz-border-radius	: 3px;
+	-webkit-border-radius	: 3px;		
+}
+
+.cert-loginfield {
+	border			: 1px solid #dedede;
+	padding			: 5px;
+	font-family		: Helvetica, Arial, sans-serif;
+	font-size		: 12pt;
+	color			: #cccccc;
+	font-weight		: normal;
+	width			: 150px;
+	height			: 14px;
+	margin-right		: 5px;
+}
+
+.cert-loginfield:focus {
+	color			: #000000;
+}
+
+.cert-loginsubmit {
+	border			: 1px solid #000070;
+	background-color	: #000070;
+	padding			: 3px 5px;
+	font-family		: "Meta-Bold", Helvetica, Arial, sans-serif;
+	font-size		: 8pt;
+	letter-spacing		: 2px;
+	color			: #ffffff;
+	font-weight		: normal;
+	text-transform		: uppercase;
+	height			: 25px;
+}
+
+#cert-strip {
+	float			: left;
+	width			: 960px;
+	height			: 30px;
+}
+
+#cert-menu {
+	float			: left;
+	width			: 168px;
+	margin-left		: 20px;
+	margin-top		: 20px;
+	margin-bottom		: 30px;
+}
+
+#cert-content {
+	float			: left;
+	width			: 544px;
+	margin-left		: 20px;
+	margin-top		: 20px;
+	margin-bottom		: 30px;
+}
+
+#cert-context {
+	float			: left;
+	width			: 168px;
+	margin-left		: 20px;
+	margin-top		: 20px;
+	margin-bottom		: 30px;
+}
+
+#cert-menu ul {
+	list-style		: none;
+	margin-top		: 60px;
+}
+
+#cert-menu li {
+	font-family		: "Meta", Helvetica, Arial, sans-serif;
+	font-size		: 10pt;
+	line-height		: 15pt;
+	color			: #888888;
+}
+
+#cert-menu li a {
+	color			: #888888;
+	text-decoration		: none;
+}
+
+#cert-menu li a:hover {
+	color			: #000099;
+}
+
+.spacerbottom {
+	margin-bottom		: 7.5pt;
+}
+
+.cert-contextbox {
+	float			: left;
+	width			: 148px;
+	border-top		: 20px solid #ffcc00;
+	background		: #eeeeee;
+	padding			: 10px 10px 20px 10px;
+	margin-bottom		: 20px;
+}
+
+.cert-contextbox h5 {
+	font-family		: "Meta-Bold", Helvetica, Arial, sans-serif;
+	font-size		: 10pt;
+	line-height		: 15pt;
+	color			: #888888;
+	font-weight		: bold;
+}
+
+.cert-resourcetable {
+	border-collapse		: collapse;
+	width			: 544px;
+}
+
+.cert-resourcetable td {
+	background-color	: #eeeeee;
+	border			: 1px solid #ffffff;
+	padding			: 4px 8px;
+	vertical-align		: top;	
+}
+
+.cert-resourcetable-res {
+	float			: left;
+	width			: 200px;
+	height			: 100px;
+	padding			: 4px 8px;
+	border			: 1px solid #cccccc;
+}
+
+.cert-resourcetable-form {
+	float			: left;
+	width			: 220px;
+}
+.cert-resourcetable-expn {
+	float			: left;
+	width			: 240px;
+	margin-left		: 20px;
+}
+
+.cert-formexpn {
+	color			: #999999;
+}
+
+.cert-resourcetable-slinput {
+	width			: 200px;
+	border			: 1px solid #cccccc;
+	padding			: 4px 8px;
+	margin			: 2px 0px 3px 0px;
+	color			: #999999;
+}
+
+.cert-resourcetable-slinput:focus {
+	color			: #000000;
+}
+
+.cert-botstable-slinput {
+	width			: 350px;
+	border			: 1px solid #cccccc;
+	padding			: 4px 8px;
+	margin			: 2px 0px 3px 0px;
+	color			: #000000;
+}
+
+.cert-resourcetable-submit {
+	border			: 1px solid #000070;
+	background-color	: #000070;
+	padding			: 3px 20px;
+	font-family		: "Meta-Bold", Helvetica, Arial, sans-serif;
+	font-size		: 8pt;
+	letter-spacing		: 2px;
+	color			: #ffffff;
+	font-weight		: normal;
+	text-transform		: uppercase;
+}
+
+.cert-resourcetable th {
+	background-color	: #f8f8f8;
+	border			: 1px solid #ffffff;
+	padding			: 4px 8px;
+	vertical-align		: top;
+	font-weight		: normal;
+	text-align		: left;
+}
+
+.cert-resourcetable td pre {
+	padding-top		: 3px;
+}
+
+.cert-account-expncell {
+	width			: 150px;
+}
+
+.cert-account-pulldown {
+	width			: 318px;
+}
+
+.cert-account-textarea {
+	width			: 300px;
+	border			: 1px solid #cccccc;
+	padding			: 4px 8px;
+	margin			: 2px 0px 3px 0px;
+	color			: #999999;
+}
+
+.cert-account-textarea:focus {
+	color			: #000000;
+}
+
+.cert-password-slinput {
+	width			: 250px;
+	border			: 1px solid #cccccc;
+	padding			: 4px 8px;
+	margin			: 2px 0px 3px 0px;
+	color			: #000000;
+}

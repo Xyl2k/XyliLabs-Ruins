@@ -1,0 +1,369 @@
+html {
+    background: #000;
+    height: auto; 
+    padding: 5px;
+    background:#000 url(antennas-and-the-northern-lights-15338.jpg) no-repeat scroll;
+    background-attachment:fixed;
+    background-position:center; 
+    color: #CCFFCC;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+input {
+    color:#fff;
+    background:#616D7E;
+    border:1px solid #333;
+    font-size: 16px;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    margin:8px;
+    padding:2px;
+    width:25%;
+    -moz-border-radius : 4px 4px / 4px 4px;
+    text-shadow: 0px 1px 2px #111;
+    -moz-box-shadow: 1px 1px 1px #111;
+    }
+.bannz
+{
+	background: url(banz.png) no-repeat top right,
+	url(banz2.png) no-repeat top left; 
+	    height: 115px;
+}
+@font-face 
+{
+   font-family:topaz;
+   src: url(topaz1200dmg.eot);
+}
+
+@font-face 
+{
+   font-family:topazweb;
+   src: url(topaz1200dmg_web.eot);
+}
+
+@font-face 
+{
+  font-family: topaz;
+  src: url(topaz1200dmg.ttf);
+}
+ 
+@font-face 
+{
+  font-family: topazweb;
+  src: url(topaz1200dmg_web.ttf);
+}
+
+.ascii
+{
+  background-color: #000A22;
+  font-family : topaz, "Lucida Console", monospace, Monaco;
+  color:#aaaaaa;
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size:14px;    
+    color:#ccc;
+    font:"Verdana";
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    line-height:14px;
+    cursor: default;
+}
+
+textarea {
+    border: 3px solid #222;
+    padding: 5px;
+    font-family: 'Lucida Console', Monospace;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    color: #010101;
+    background: #C0C0C0;
+    opacity: 0.7;
+    filter:alpha(opacity=70);
+    -moz-border-radius : 12px 12px / 12px 12px;
+}
+
+h1 {
+  font-weight:normal;
+  font-family:'Futura','Gill Sans','Arial',sans-serif;
+  padding:.5em 0;
+  margin-bottom:12px;
+  color:#660;
+  font-size:157%;
+  background:#000 url('ici');
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+  text-shadow: 1px 1px 1px #058;
+}
+
+h7 {
+    text-shadow: 1px 1px 0px #eee, 0.9px 1px 0.2px #EEEE00;
+
+}
+
+#corps {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color:transparent!important;
+}
+
+#content {
+  padding-top:1em;
+}
+
+code {
+    display: block;
+    text-align: left;
+    border:0.6px dashed #ccc;
+    padding:1em 2em 1em 2em;
+    color:#CCFFFA !important;
+    font-family: 'Lucida Console', Monospace;
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    -moz-border-radius : 8px 8px / 5px 5px;
+    word-wrap: break-word;
+}
+
+.asm {
+    display: block;
+    text-align: left;
+    border:2px dotted gray;
+    padding:1em 2em 1em 2em;
+    color:#4cf !important;
+    background-color:#000 !important;
+    font-family: 'Lucida Console', Monospace;
+    font-weight: bold;
+    font-size: 14px;
+    width: 90%;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+    -moz-border-radius : 12px 12px / 5px 5px;
+    word-wrap: break-word;
+}
+
+.mem {
+    display: block;
+    text-align: left;
+    border:1px dotted gray;
+    margin:4px;
+    padding:1px 2em 1em 2em;
+    color:#4de !important;
+    background-color:#000 !important;
+    font-family: calibri, Monospace, 'Lucida Grande', Verdana, Tahoma, Arial, Helvetica, 'Bitstream Vera Sans', FreeSans, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+    -moz-border-radius : 8px 8px / 4px 4px;
+    word-wrap: break-word;
+}
+
+.note {    
+    width: 80%;
+    text-align: left;
+    padding: 8px 8px 8px 8px;
+    background-color:#333;
+    color:#eee !important;
+    border:1px dotted gray;
+    text-shadow: 0px 1px 1px #058;
+    font-family: 'Lucida Console', Monospace;
+    filter:alpha(opacity=90);
+    opacity:0.9;
+    -moz-border-radius : 8px 8px / 4px 4px;
+    word-wrap: break-word;
+}
+
+.alerte {
+    text-align: left;
+    color: #FFFF00;
+    background-color: #FF0000;
+    font-weight: bold;
+    font-family: 'Lucida Console', Monospace;
+    font-size: 14px;
+    padding:1em 2em 1em 2em;
+    text-shadow: 1px 1px 1px #058;
+    filter:alpha(opacity=90);
+    opacity:0.9;
+    -moz-box-shadow: 1px 1px 1px #000;
+    -moz-border-radius : 10px 10px / 5px 5px;
+    word-wrap: break-word;
+}
+
+.sample {
+    width: 60%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #EE0000;
+    font-weight: bold;
+    font-family: 'Lucida Console', Monospace;
+    font-size: 14px;
+    padding:1em 2em 1em 2em;
+    text-shadow: 0.6px 0.6px 0.6px #058;
+    filter:alpha(opacity=80);
+    opacity:0.8;
+    -moz-box-shadow: 1px 1px 1px #000;
+    -moz-border-radius : 10px 10px / 5px 5px;
+    word-wrap: break-word;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    cursor: all-scroll;
+    border: thin silver solid;
+    margin: 1px;
+    padding: 2px;
+}
+
+.msg {
+    width:80%;
+    height:100%;
+    font-size:110%;
+    color:#618E7F;
+    background-color: #111;
+    padding:.5em;
+    text-align: center;
+    position: relative;
+    left:120px;
+    border:1px groove #258;
+    margin-left:34px;
+    margin-right:34px;
+    margin-top:12px;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-radial-gradient(100%, circle cover, #000, #023, #000);
+   -webkit-border-radius: 32px 12px;
+   -moz-border-radius: 32px / 12px;
+   -moz-opacity: 0.9;
+   -khtml-opacity: 0.9;
+   -moz-box-shadow: 1px 1px 1px #000;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    word-wrap: break-word;
+}
+
+.msg a {
+    color: #FFF;
+    font-size: 12px;
+}
+
+.msg li {
+    list-style: circle;
+    margin-left: 24px;
+    padding-bottom: .3em;
+}
+
+.msg li object { display:block; margin:1em 0 }
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.info {
+    width: 95%;
+    font-size: 95%;
+    border: 0px;
+    padding: 5px;
+    margin: 5px;
+    border-style: dotted;
+    border-color: #226;
+    text-align: left;
+    line-height:18px;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    word-wrap: break-word;
+}
+
+.msg2 {
+    font-size:110%;
+    color:#618E7F;
+    background-color: #111;
+    padding:.5em;
+    text-align: center;
+    position: relative;
+    border:1px groove #258;
+    text-shadow: 1px 1px 1px #000;
+    background: -moz-radial-gradient(100%, circle cover, #000, #023, #000);
+   -webkit-border-radius: 32px 12px;
+   -moz-border-radius: 32px / 12px;
+   -moz-opacity: 0.9;
+   -khtml-opacity: 0.9;
+   -moz-box-shadow: 1px 1px 1px #000;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    word-wrap: break-word;
+}
+
+.dead {
+  text-align: center;
+  color: rgba(165, 25, 25, 1);
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+
+.pulse1 {
+  -webkit-animation: pulse1 1s linear infinite;
+  -moz-animation: pulse1 1s linear infinite;
+  -ms-animation: pulse1 1s linear infinite;
+  animation: pulse1 1s linear infinite;
+}
+
+@keyframes "pulse1" {
+ 0% {
+    color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+    color: rgba(255,0,0,0.0);
+ }
+ 100% {
+    color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-moz-keyframes pulse1 {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-webkit-keyframes "pulse1" {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-ms-keyframes "pulse1" {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
